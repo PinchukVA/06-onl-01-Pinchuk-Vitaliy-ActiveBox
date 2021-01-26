@@ -1,0 +1,123 @@
+/**/
+/**/
+/**/
+/*Google fonts*/
+/**/
+/**/
+/**/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap");
+/**/
+/**/
+/**/
+/*Base styles for template*/
+/**/
+/**/
+/**/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+input[type=text],
+input[type=phone],
+input[type=email],
+textarea {
+  -webkit-appearance: none;
+          appearance: none;
+}
+input[type=text]:focus,
+input[type=phone]:focus,
+input[type=email]:focus,
+textarea:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+  max-width: 100%;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  border-style: none;
+}
+
+button {
+  padding: 0;
+}
+
+button:active,
+a:active,
+input:active,
+textarea:active {
+  outline: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/**/
+/**/
+/**/
+/*connecting variables,mixins,media-queries*/
+/**/
+/**/
+/**/
